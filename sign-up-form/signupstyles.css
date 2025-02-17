@@ -1,3 +1,13 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:d15243d9850e858e1037093d60c00257292ac4895bb807eefaf878eb38860136
-size 196
+@font-face {
+  font-family: Norse-Bold;
+  src: url(./fonts/Norse-Bold.otf);
+}
+
+body {
+  font-family: Norse-Bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+

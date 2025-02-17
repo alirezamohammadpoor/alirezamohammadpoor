@@ -1,3 +1,76 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:691d499b10f64a9318a8afad521c03ea7bd8bc94d6105190a9dac30769b1d85b
-size 1983
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ali Reza's Portfolio</title>
+    <link href="styles.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="//code.iconify.design/1/1.0.6/iconify.min.js"></script>
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html" class="header-home">Ali Reza Mohammad Poor</a>
+      <div class="off-screen-menu">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+      </div>
+      <nav>
+        <div class="ham-menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </nav>
+    </header>
+
+    <div class="container">
+      <form>
+        <div class="input-group">
+          <label for="name">Name</label>
+          <input
+            id="name"
+            class="invalid"
+            placeholder="Enter your name"
+            type="text"
+            required
+          />
+        </div>
+        <div class="input-group">
+          <label for="phone">Phone</label>
+          <input id="phone" type="tel" placeholder="+46 123 123 10" />
+        </div>
+        <div class="input-group">
+          <label for="email">Email</label>
+          <input id="email" type="email" placeholder="Enter Email" />
+        </div>
+        <div class="successful-submit">
+          Thank you! I'll be in touch within 48 hours.
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+
+    <footer>
+      <div class="footer-container-fixed">
+        <a href="index.html">Home</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contact</a>
+        <p class="copyright">
+          © 2025 Ali Reza Mohammad Poor. All rights reserved.
+        </p>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
